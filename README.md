@@ -71,32 +71,32 @@
 <div class="container">
     <div class="agency">
         <h2>وزارة الطاقة والثروة المعدنية</h2>
-        <a href="https://www.memr.gov.jo" target="_blank">زيارة الموقع الرسمي</a>
+        <a href="intent://www.memr.gov.jo#Intent;scheme=https;package=com.android.chrome;end" target="_blank">زيارة الموقع الرسمي</a>
     </div>
 
     <div class="agency">
         <h2>شركة الكهرباء الوطنية (NEPCO)</h2>
-        <a href="https://www.nepco.com.jo" target="_blank">زيارة الموقع الرسمي</a>
+        <a href="intent://www.nepco.com.jo#Intent;scheme=https;package=com.android.chrome;end" target="_blank">زيارة الموقع الرسمي</a>
     </div>
 
     <div class="agency">
         <h2>هيئة تنظيم قطاع الطاقة والمعادن</h2>
-        <a href="https://www.emrc.gov.jo" target="_blank">زيارة الموقع الرسمي</a>
+        <a href="intent://www.emrc.gov.jo#Intent;scheme=https;package=com.android.chrome;end" target="_blank">زيارة الموقع الرسمي</a>
     </div>
 
     <div class="agency">
         <h2>شركة الكهرباء الأردنية (JEPCO)</h2>
-        <a href="https://www.jepco.com.jo" target="_blank">زيارة الموقع الرسمي</a>
+        <a href="intent://www.jepco.com.jo#Intent;scheme=https;package=com.android.chrome;end" target="_blank">زيارة الموقع الرسمي</a>
     </div>
 
     <div class="agency">
         <h2>شركة توزيع الكهرباء (EDCO)</h2>
-        <a href="https://www.edco.jo" target="_blank">زيارة الموقع الرسمي</a>
+        <a href="intent://www.edco.jo#Intent;scheme=https;package=com.android.chrome;end" target="_blank">زيارة الموقع الرسمي</a>
     </div>
 
     <div class="agency">
         <h2>شركة كهرباء إربد</h2>
-        <a href="https://www.ideco.com.jo" target="_blank">زيارة الموقع الرسمي</a>
+        <a href="intent://www.ideco.com.jo#Intent;scheme=https;package=com.android.chrome;end" target="_blank">زيارة الموقع الرسمي</a>
     </div>
 </div>
 
