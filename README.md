@@ -21,14 +21,14 @@
 
         h1 {
             margin: 0;
-            font-size: 24px; /* حجم الخط */
+            font-size: 20px; /* حجم الخط مناسب للهواتف */
         }
 
         .container {
             background-color: #ffffff;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            padding: 20px;
+            padding: 15px; /* تقليل المساحة الداخلية */
             margin-top: 20px;
         }
 
@@ -60,16 +60,6 @@
             margin-top: 20px;
             font-size: 0.8em;
             color: #666;
-        }
-
-        /* استجابة للهواتف */
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 20px; /* حجم خط أصغر على الهواتف */
-            }
-            .container {
-                padding: 15px; /* تقليل المساحة الداخلية */
-            }
         }
     </style>
 </head>
