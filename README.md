@@ -1,92 +1,64 @@
+<!DOCTYPE html>
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الجهات الحكومية المعنية بالطاقة والكهرباء</title>
+    <title>الجهات الحكومية المعنية بالطاقة والكهرباء في الأردن</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
+            background-color: #f5f5f5;
             margin: 0;
-            padding: 20px;
-            direction: rtl; /* الاتجاه من اليمين إلى اليسار */
-        }
-
-        header {
-            background-color: #004b87; /* لون خلفية رأس الصفحة */
-            color: #ffffff;
-            padding: 10px;
-            text-align: center;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 20px; /* حجم الخط مناسب للهواتف */
-        }
-
-        .container {
-            background-color: #ffffff;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            padding: 15px; /* تقليل المساحة الداخلية */
-            margin-top: 20px;
-        }
-
-        ul {
-            list-style-type: none; /* إزالة نقاط القائمة */
             padding: 0;
         }
-
-        li {
-            margin: 10px 0;
-        }
-
-        a {
-            text-decoration: none; /* إزالة التسطير من الروابط */
-            color: #004b87; /* لون النص */
-            transition: color 0.3s; /* تأثير انتقال اللون */
-            display: block; /* جعل الرابط يغطي كامل المساحة */
-            padding: 10px; /* إضافة مساحة داخلية للرابط */
-            border-radius: 4px; /* زوايا مستديرة */
-        }
-
-        a:hover {
-            color: #007bff; /* لون عند التمرير على الرابط */
-            background-color: #e9ecef; /* لون خلفية عند التمرير */
-        }
-
-        footer {
+        header {
+            background-color: #004b87;
+            color: white;
+            padding: 20px;
             text-align: center;
-            margin-top: 20px;
-            font-size: 0.8em;
-            color: #666;
         }
-
-        /* استجابة للهواتف فقط */
+        header h1 {
+            margin: 0;
+            font-size: 22px;
+        }
+        .container {
+            max-width: 90%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .agency {
+            margin-bottom: 20px;
+        }
+        .agency h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #004b87;
+        }
+        .agency a {
+            display: block;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .agency a:hover {
+            background-color: #0056b3;
+        }
         @media (max-width: 600px) {
-            h1 {
-                font-size: 18px; /* حجم الخط أقل للهاتف */
+            header h1 {
+                font-size: 18px;
             }
-
-            .container {
-                padding: 10px; /* تقليل المساحة الداخلية */
+            .agency h2 {
+                font-size: 16px;
             }
-
-            ul {
-                padding-left: 20px; /* إضافة مسافة من اليسار للقائمة */
-            }
-
-            li {
-                margin: 8px 0; /* تقليل المسافة بين العناصر */
-            }
-
-            a {
-                font-size: 14px; /* تقليل حجم الخط في الروابط */
-                padding: 8px; /* تقليل الحشوة الداخلية للرابط */
-            }
-
-            footer {
-                font-size: 0.7em; /* تقليل حجم الخط في التذييل */
+            .agency a {
+                font-size: 14px;
             }
         }
     </style>
@@ -94,27 +66,40 @@
 <body>
 
 <header>
-    <h1>الجهات الحكومية المعنية بالطاقة والكهرباء</h1>
+    <h1>الجهات الحكومية المعنية بالطاقة والكهرباء في الأردن</h1>
 </header>
 
 <div class="container">
-    <ul>
-        <li><a href="https://www.memr.gov.jo/" target="_blank">وزارة الطاقة والثروة المعدنية</a></li>
-        <li><a href="https://www.emrc.gov.jo/" target="_blank">هيئة تنظيم قطاع الطاقة والمعادن</a></li>
-        <li><a href="https://www.nepco.com.jo/" target="_blank">شركة الكهرباء الوطنية (NEPCO)</a></li>
-        <li><a href="https://www.jec.com.jo/" target="_blank">مؤسسة الكهرباء الأردنية</a></li>
-        <li><a href="https://www.jordanrenewableenergy.com/" target="_blank">الهيئة الأردنية لمصادر الطاقة المتجددة</a></li>
-        <li><a href="http://www.moenv.gov.jo/" target="_blank">وزارة البيئة</a></li>
-        <li><a href="https://www.jic.gov.jo/" target="_blank">الهيئة العامة للاستثمار</a></li>
-        <li><a href="http://www.dos.gov.jo/" target="_blank">مؤسسة الإحصاءات العامة</a></li>
-        <li><a href="http://www.mop.gov.jo/" target="_blank">وزارة التخطيط والتعاون الدولي</a></li>
-        <li><a href="http://www.jorenergy.com/" target="_blank">الشركة الأردنية لتوليد الكهرباء</a></li>
-    </ul>
-</div>
+    <div class="agency">
+        <h2>وزارة الطاقة والثروة المعدنية</h2>
+        <a href="https://www.memr.gov.jo" target="_blank">زيارة الموقع الرسمي</a>
+    </div>
 
-<footer>
-    © 2024 - جميع الحقوق محفوظة
-</footer>
+    <div class="agency">
+        <h2>شركة الكهرباء الوطنية (NEPCO)</h2>
+        <a href="https://www.nepco.com.jo" target="_blank">زيارة الموقع الرسمي</a>
+    </div>
+
+    <div class="agency">
+        <h2>هيئة تنظيم قطاع الطاقة والمعادن</h2>
+        <a href="https://www.emrc.gov.jo" target="_blank">زيارة الموقع الرسمي</a>
+    </div>
+
+    <div class="agency">
+        <h2>شركة الكهرباء الأردنية (JEPCO)</h2>
+        <a href="https://www.jepco.com.jo" target="_blank">زيارة الموقع الرسمي</a>
+    </div>
+
+    <div class="agency">
+        <h2>شركة توزيع الكهرباء (EDCO)</h2>
+        <a href="https://www.edco.jo" target="_blank">زيارة الموقع الرسمي</a>
+    </div>
+
+    <div class="agency">
+        <h2>شركة كهرباء إربد</h2>
+        <a href="https://www.ideco.com.jo" target="_blank">زيارة الموقع الرسمي</a>
+    </div>
+</div>
 
 </body>
 </html>
