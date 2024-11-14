@@ -21,6 +21,7 @@
 
         h1 {
             margin: 0;
+            font-size: 24px; /* حجم الخط */
         }
 
         .container {
@@ -44,10 +45,14 @@
             text-decoration: none; /* إزالة التسطير من الروابط */
             color: #004b87; /* لون النص */
             transition: color 0.3s; /* تأثير انتقال اللون */
+            display: block; /* جعل الرابط يغطي كامل المساحة */
+            padding: 10px; /* إضافة مساحة داخلية للرابط */
+            border-radius: 4px; /* زوايا مستديرة */
         }
 
         a:hover {
             color: #007bff; /* لون عند التمرير على الرابط */
+            background-color: #e9ecef; /* لون خلفية عند التمرير */
         }
 
         footer {
@@ -55,6 +60,16 @@
             margin-top: 20px;
             font-size: 0.8em;
             color: #666;
+        }
+
+        /* استجابة للهواتف */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 20px; /* حجم خط أصغر على الهواتف */
+            }
+            .container {
+                padding: 15px; /* تقليل المساحة الداخلية */
+            }
         }
     </style>
 </head>
